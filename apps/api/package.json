@@ -1,5 +1,5 @@
 {
-  "name": "api",
+  "name": "airdash-api",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -18,7 +18,7 @@
     "@nestjs/common": "^11.1.11",
     "@nestjs/core": "^11.1.11",
     "@nestjs/platform-express": "^11.1.11",
-    "@workspace/schemas": "workspace:*",
+    "@airdash/schemas": "workspace:*",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.2",
     "escape-html": "^1.0.3"
@@ -28,9 +28,9 @@
     "@nestjs/cli": "^11.0.14",
     "@nestjs/schematics": "^11.0.9",
     "@nestjs/testing": "^11.1.11",
-    "@workspace/eslint-config": "workspace:*",
-    "@workspace/jest-config": "workspace:*",
-    "@workspace/typescript-config": "workspace:*",
+    "@airdash/eslint-config": "workspace:*",
+    "@airdash/jest-config": "workspace:*",
+    "@airdash/typescript-config": "workspace:*",
     "@types/express": "^4.17.25",
     "@types/node": "^22.19.3",
     "@types/supertest": "^6.0.3",

@@ -1,4 +1,9 @@
-import { nestJsConfig } from "@workspace/eslint-config/nest-js";
+import { nestJsConfig } from "@airdash/eslint-config/nest-js";
 
 /** @type {import("eslint").Linter.Config} */
-export default nestJsConfig;
+export default [
+  ...nestJsConfig,
+  {
+    ignores: ["**/*.d.ts"]
+  }
+];

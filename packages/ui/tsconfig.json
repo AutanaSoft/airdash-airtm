@@ -1,9 +1,9 @@
 {
-  "extends": "@workspace/typescript-config/react-library.json",
+  "extends": "@airdash/typescript-config/react-library.json",
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@workspace/ui/*": ["./src/*"]
+      "@airdash/ui/*": ["./src/*"]
     }
   },
   "include": ["."],

@@ -1,7 +1,16 @@
 {
-  "name": "gemini-turbo",
+  "name": "airdash-airtm",
   "version": "0.0.1",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AutanaSoft/airdash-airtm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AutanaSoft/airdash-airtm/issues"
+  },
+  "homepage": "https://github.com/AutanaSoft/airdash-airtm#readme",
+  "author": "AutanaSoft",
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
@@ -13,8 +22,8 @@
   "devDependencies": {
     "@commitlint/cli": "^20.4.3",
     "@commitlint/config-conventional": "^20.4.3",
-    "@workspace/eslint-config": "workspace:*",
-    "@workspace/typescript-config": "workspace:*",
+    "@airdash/eslint-config": "workspace:*",
+    "@airdash/typescript-config": "workspace:*",
     "husky": "^9.1.7",
     "lint-staged": "^16.3.2",
     "prettier": "^3.8.1",

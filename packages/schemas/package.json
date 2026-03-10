@@ -1,5 +1,5 @@
 {
-  "name": "@workspace/schemas",
+  "name": "@airdash/schemas",
   "version": "0.0.0",
   "private": true,
   "license": "MIT",
@@ -22,8 +22,8 @@
   },
   "devDependencies": {
     "@types/node": "^22.10.7",
-    "@workspace/eslint-config": "workspace:*",
-    "@workspace/typescript-config": "workspace:*",
+    "@airdash/eslint-config": "workspace:*",
+    "@airdash/typescript-config": "workspace:*",
     "ts-loader": "^9.4.3",
     "ts-node": "^10.9.2",
     "typescript": "5.5.4"

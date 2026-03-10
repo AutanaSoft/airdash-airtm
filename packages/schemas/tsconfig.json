@@ -1,5 +1,5 @@
 {
-  "extends": "@workspace/typescript-config/nestjs.json",
+  "extends": "@airdash/typescript-config/nestjs.json",
   "compilerOptions": {
     "allowJs": true,
     "baseUrl": "src",
