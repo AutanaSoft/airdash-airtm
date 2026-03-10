@@ -1,14 +1,6 @@
-import {
-  Controller,
-  Get,
-  Post,
-  Body,
-  Patch,
-  Param,
-  Delete,
-} from "@nestjs/common"
+import { Controller, Get, Post, Body, Patch, Param, Delete } from "@nestjs/common"
 
-import type { CreateLinkDto, UpdateLinkDto } from "@workspace/api"
+import type { CreateLinkDto, UpdateLinkDto } from "@workspace/schemas"
 
 import { LinksService } from "./links.service"
 
